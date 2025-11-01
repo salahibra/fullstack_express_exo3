@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Total express EJS layouts</title>
+        <link rel="stylesheet" href="/css/main.css">
+    </head>
+    <body>
+        <%- include("../partials/header") %>
+
+        <div id="content">
+            <div id="scrollable">
+                <%- include("../pages/home")%>
+            </div>
+        </div>
+        <%- include("../partials/footer") %>
+        
+    </body>
+</html>
